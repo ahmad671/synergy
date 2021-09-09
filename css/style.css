@@ -1,3 +1,98 @@
+.header-wrapper.header-wrapper--transparent .site-nav__link,
+    .header-wrapper.header-wrapper--transparent .site-header__logo a {
+      color: #ffffff;
+    }
+
+    .header-wrapper.header-wrapper--transparent .site-header__logo a:hover,
+    .header-wrapper.header-wrapper--transparent .site-nav__link:hover,
+    .header-wrapper.header-wrapper--transparent .site-nav__link:focus,
+    .header-wrapper.header-wrapper--transparent .site-header__logo a:focus {
+      color: rgba(255, 255, 255, 0.75);
+    }
+
+    .header-wrapper.header-wrapper--transparent .site-nav--has-dropdown.nav-hover > .site-nav__link {
+      color: #000000;
+    }
+
+    .header-wrapper.header-wrapper--transparent .burger-icon,
+    .header-wrapper.header-wrapper--transparent .site-nav__link:hover .burger-icon {
+      background: #ffffff;
+    }.header-wrapper .site-nav__link,
+.header-wrapper .site-header__logo a,
+.header-wrapper .site-nav__dropdown-link,
+.header-wrapper .site-nav--has-dropdown > a.nav-focus,
+.header-wrapper .site-nav--has-dropdown.nav-hover > a,
+.header-wrapper .site-nav--has-dropdown:hover > a {
+  color: #000000;
+}
+
+.header-wrapper .site-header__logo a:hover,
+.header-wrapper .site-header__logo a:focus,
+.header-wrapper .site-nav__link:hover,
+.header-wrapper .site-nav__link:focus,
+.header-wrapper .site-nav--has-dropdown a:hover,
+.header-wrapper .site-nav--has-dropdown > a.nav-focus:hover,
+.header-wrapper .site-nav--has-dropdown > a.nav-focus:focus,
+.header-wrapper .site-nav--has-dropdown .site-nav__link:hover,
+.header-wrapper .site-nav--has-dropdown .site-nav__link:focus,
+.header-wrapper .site-nav--has-dropdown.nav-hover > a:hover,
+.header-wrapper .site-nav__dropdown a:focus {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.header-wrapper .burger-icon,
+.header-wrapper .site-nav--has-dropdown:hover > a:before,
+.header-wrapper .site-nav--has-dropdown > a.nav-focus:before,
+.header-wrapper .site-nav--has-dropdown.nav-hover > a:before {
+  background: #000000;
+}
+
+.header-wrapper .site-nav__link:hover .burger-icon {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.site-header__logo img {
+  width: 170px;
+}
+
+@media screen and(max-width: 959px) {
+  .site-header__logo img {
+    width: 80px !important;
+  }
+}
+
+/* Extra css for handling products menu */
+#MenuChildren-product {
+  display: flex;
+  padding: 40px;
+}
+
+#MenuChildren-product ul li:first-child {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#MenuChildren-product ul {
+  margin: 0 50px 0px 0px;
+}
+
+#MenuChildren-product li {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+}
+
+#MenuChildren-product li a {
+  padding: 0px;
+}
 .site-header-container {
     display: flex;
     flex-flow: row nowrap;
@@ -697,4 +792,7 @@
     rgba(0, 0, 0, 0.25) calc(100% - 150px),
     rgba(0, 0, 0, 0.38) calc(100% - 60px),
     rgba(0, 0, 0, 0.5));
+}
+.locale-selectors__container{
+  display: none;
 }

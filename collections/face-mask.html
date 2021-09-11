@@ -684,6 +684,9 @@ for (var attr in meta) {
 
 
 <style>
+  .push--large--one-eighth{
+    left: 0!important;
+  }
   .locale-selectors__container{
     display: none;
   }
@@ -2830,7 +2833,7 @@ function expandProductCategoryFAQ(index) {
               name="contact[email]" id="Email" class="input-group-field newsletter__input" autocorrect="off"
               autocapitalize="off">
           </div>
-          <button id="Subscribe" type="submit" class="btn newsletter__submit"
+          <button id="Subscribe" type="button" class="btn newsletter__submit"
             aria-label="Subscribe">
             <a href="#" style="text-decoration: none;" class="newsletter__submit-text">Sign Up</a>
 <!--                         <span class="newsletter__submit-text--large">Sign Up</span> -->
@@ -2898,7 +2901,7 @@ function expandProductCategoryFAQ(index) {
   
   <input type="search" name="q" value="" placeholder="Search our store" class="input-group-field" aria-label="Search our store">
   <span class="input-group-btn">
-    <button type="submit" class="btn icon-fallback-text">
+    <button type="button" class="btn icon-fallback-text">
       <span class="icon icon-search" aria-hidden="true"></span>
       <span class="fallback-text">Search</span>
     </button>

@@ -179,7 +179,9 @@
     font-weight: 400;
     text-decoration: none !important;
   }
-
+  .push--large--one-eighth{
+    left: 0!important;
+  }
   .icon.arrow{
     width:12px;
     height:auto;
